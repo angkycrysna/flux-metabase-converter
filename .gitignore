@@ -1,0 +1,7 @@
+# Dependecy
+node_modules
+
+# Others
+.env
+package-lock.json
+backup_code.js

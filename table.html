@@ -1,0 +1,107 @@
+<html>
+  <head>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      *,
+      *:before,
+      *:after {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        background: white;
+        width: 1800px;
+        height: 628px;
+        font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+      }
+
+      div {
+        padding: 0 15px;
+        align-items: center;
+        justify-content: center;
+      }
+
+      table {
+        width: 100%;
+        font-size: 14px;
+      }
+
+      table, th {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 10px 5px 10px;
+        text-align: left;
+        width: 100%;
+      }
+
+      td {
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        padding: 10px 5px 10px;
+        text-align: left;
+        font-weight: bold;
+      }
+
+      tr:nth-child(even) {
+        background-color: #b5f3f3;
+      }
+
+      p {
+        font-size: 24px;
+      }
+
+      .header {
+        width: 24%;
+        border: none;
+      }
+
+      .bottomRight {
+        position: absolute;
+        bottom: 8px;
+        right: 16px;
+        font-size: 18px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div>
+    </br></br>
+    <table class="header">
+      <tr>
+        <td>Toko Cabang</td>
+        <td>:</td>
+        <td>__TOKO_CABANG__</td>
+      </tr>
+      <tr style="background-color: white;">
+        <td>Month</td>
+        <td>:</td>
+        <td>__MONTH__</td>
+      </tr>
+      <tr style="background-color: white;">
+        <td>Year</td>
+        <td>:</td>
+        <td>__YEAR__</td>
+      </tr>
+      <tr style="background-color: white;">
+        <td>Generated At</td>
+        <td>:</td>
+        <td>__GENERATED_AT__</td>
+      </tr>
+    </table>
+    </br></br>
+      <table>
+        <thead>
+          __TABLE_HEAD__
+        </thead>
+        __TABLE_DATA__
+      </table>
+      <div class="bottomRight">PT. Adi Sarana Logistik (www.titipaja.id)</div>
+    </div>
+  </body>
+</html>
